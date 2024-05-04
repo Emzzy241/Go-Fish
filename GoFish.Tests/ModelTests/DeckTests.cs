@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using GoFish.Models;
 
@@ -22,7 +23,7 @@ namespace GoFishTests.ModelTests
         Assert.AreEqual(52, deck.GetNumberOfCards());
 
         // Assert that each card has a unique combination of value and suit
-        Assert.AreEqual(52, deck.GetDistinctCards());
+        Assert.AreEqual(52, deck.GetDistinctCards().Count());
         }
     }
 }

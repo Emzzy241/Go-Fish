@@ -6,7 +6,7 @@ using GoFish.Models;
 namespace GoFishTests.ModelTests
 {
     [TestClass]
-    public class MyClass : IDisposable
+    public class PlayerTests : IDisposable
     {
         public void Dispose()
         {
@@ -97,7 +97,7 @@ namespace GoFishTests.ModelTests
             Player newPlayer = new Player("Dynasty");
             Player newPlayer2 = new Player("Dynasty");
             int expectedId = 1;
-            int expectedId2 = 1;
+            int expectedId2 = 2;
 
             // Act
             int actualId = newPlayer.Id;

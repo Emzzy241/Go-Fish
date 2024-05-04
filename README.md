@@ -1,7 +1,7 @@
 # Go Fish 1.0.0
 #### A fullstack project made by Mojiboye Emmanuel(Dynasty)
 
-#### A game where 2 Players can play the Go Fish game with each other.
+#### A game where 2 or more Players can play the Go Fish game with one other.
 
 ## Technologies Used
 * Git
